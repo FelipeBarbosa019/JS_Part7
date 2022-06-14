@@ -1,0 +1,98 @@
+/* --------------- Reset --------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* --------------- Header --------------- */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 15vh;
+    color: #FFFFFF;
+    gap: 5vw;
+}
+
+header a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+header a:hover {
+    transform: scale(1.3);
+    transition: 2s;
+}
+
+#current {
+    color: #9c9b9b;
+}
+
+/* --------------- Body --------------- */
+#container {
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3px;  
+    border-radius: 10px 10px 10px 10px;
+}
+
+body {
+    background-color: #000000;
+    background-position: center;
+    background-position-y: 10px;
+}
+
+div input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h2 {
+    color: #FFFFFF;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+input {
+    width: 70px;
+}
+
+
+/* --------------- Footer --------------- */
+footer{
+    width: 100vw;
+    height: 6vw;
+    background-color: #000000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 0vw;
+    margin-top: 2vw;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.socials a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.socials a:hover i {
+    color:#4d4d4d;
+    transform: scale(2.5);
+    transition: 2s;
+}
